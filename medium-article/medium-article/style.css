@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans:400,700&display=swap');
+
+body {
+    font-family: 'Lato';
+    background-color: white;
+  }
+
+h1 {
+    color: white;
+  }
+
+a{
+  background-color: rgba(0,255,0,0.2);
+  font-size: 26px;
+}
+
+a:hover {
+  background-color: rgba(0,255,0,0.4);
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://source.unsplash.com/weekly?water");
+    height: 500px;
+  }
+
+ .hero-text {
+    text-align: center;
+    color: white;
+    padding: 150px;
+    font-weight: bold;
+    font-family: 'Lato';
+  }
+
+  .hero-text p {
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+  }
+
+.container {
+    background-color: white;
+    height: 150px;
+    text-align: center;
+    margin: 10px 400px 5px 400px;
+    padding: 10px;
+    font-family: 'Lato';
+    color: black;
+  }
+
+.container h3 {
+    color: grey;
+    font-size: 24px;
+    text-align: left;
+  }
+
+.container p {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  @media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
