@@ -4,16 +4,16 @@
   background-position: center;
   }
 
- .hero-text h2{
+ .hero-text h2 {
   font-weight:lighter;
   font-size:36px;
   font-family: 'Lora';
   }
 
  img{
-  height: auto;
-  width: 100%;
-}
+  height:auto;
+  width:100%;
+ }
 
   .hero-text p{
   color: #757575;

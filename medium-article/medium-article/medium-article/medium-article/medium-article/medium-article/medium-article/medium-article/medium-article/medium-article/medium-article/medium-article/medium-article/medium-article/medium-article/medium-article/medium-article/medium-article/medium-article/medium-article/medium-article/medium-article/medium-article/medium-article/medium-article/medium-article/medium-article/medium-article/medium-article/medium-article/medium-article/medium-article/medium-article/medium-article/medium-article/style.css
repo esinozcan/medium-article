@@ -10,10 +10,10 @@
   font-family: 'Lora';
   }
 
- img{
-  height: auto;
-  width: 100%;
-}
+  .container img {
+    height:450px;
+    width: 100%;
+  }
 
   .hero-text p{
   color: #757575;
